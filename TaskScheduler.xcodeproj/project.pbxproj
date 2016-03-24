@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		115B42DC1CA3728D00F072B1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B42DB1CA3728D00F072B1 /* main.swift */; };
+		115B42E31CA3A3C100F072B1 /* MSBTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B42E21CA3A3C100F072B1 /* MSBTask.swift */; };
+		115B42E51CA3A45A00F072B1 /* MSBSubroutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B42E41CA3A45A00F072B1 /* MSBSubroutine.swift */; };
+		115B42E81CA3A56C00F072B1 /* MSBInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B42E71CA3A56C00F072B1 /* MSBInstruction.swift */; };
+		115B42EA1CA3A57F00F072B1 /* MSBReaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B42E91CA3A57F00F072B1 /* MSBReaction.swift */; };
+		115B42EC1CA3A66F00F072B1 /* MSBPubSub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B42EB1CA3A66F00F072B1 /* MSBPubSub.swift */; };
+		115B42EE1CA3A94000F072B1 /* MSBTaskScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B42ED1CA3A94000F072B1 /* MSBTaskScheduler.swift */; };
+		115B42F01CA3AB4E00F072B1 /* MSBSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B42EF1CA3AB4E00F072B1 /* MSBSchedule.swift */; };
+		115B42F21CA3AE7100F072B1 /* MSBDefaultInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B42F11CA3AE7100F072B1 /* MSBDefaultInstruction.swift */; };
+		115B42F51CA3AF1F00F072B1 /* MSBPubSubProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B42F41CA3AF1F00F072B1 /* MSBPubSubProvider.swift */; };
+		115B42F71CA3B22300F072B1 /* MSBDefaultSubroutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B42F61CA3B22300F072B1 /* MSBDefaultSubroutine.swift */; };
+		115B42F91CA3B56E00F072B1 /* MSBDefaultReaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B42F81CA3B56E00F072B1 /* MSBDefaultReaction.swift */; };
+		115B42FB1CA3B5DC00F072B1 /* MSBDefaultTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B42FA1CA3B5DC00F072B1 /* MSBDefaultTask.swift */; };
+		115B42FD1CA3B6AD00F072B1 /* MSBDefaultTaskScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B42FC1CA3B6AD00F072B1 /* MSBDefaultTaskScheduler.swift */; };
+		115B42FF1CA3B70D00F072B1 /* MSBDefaultSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B42FE1CA3B70D00F072B1 /* MSBDefaultSchedule.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		115B42D61CA3728D00F072B1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		115B42D81CA3728D00F072B1 /* TaskScheduler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TaskScheduler; sourceTree = BUILT_PRODUCTS_DIR; };
+		115B42DB1CA3728D00F072B1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		115B42E21CA3A3C100F072B1 /* MSBTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSBTask.swift; path = ../MSBTask.swift; sourceTree = "<group>"; };
+		115B42E41CA3A45A00F072B1 /* MSBSubroutine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSBSubroutine.swift; path = ../MSBSubroutine.swift; sourceTree = "<group>"; };
+		115B42E71CA3A56C00F072B1 /* MSBInstruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBInstruction.swift; sourceTree = "<group>"; };
+		115B42E91CA3A57F00F072B1 /* MSBReaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBReaction.swift; sourceTree = "<group>"; };
+		115B42EB1CA3A66F00F072B1 /* MSBPubSub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBPubSub.swift; sourceTree = "<group>"; };
+		115B42ED1CA3A94000F072B1 /* MSBTaskScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBTaskScheduler.swift; sourceTree = "<group>"; };
+		115B42EF1CA3AB4E00F072B1 /* MSBSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBSchedule.swift; sourceTree = "<group>"; };
+		115B42F11CA3AE7100F072B1 /* MSBDefaultInstruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBDefaultInstruction.swift; sourceTree = "<group>"; };
+		115B42F41CA3AF1F00F072B1 /* MSBPubSubProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBPubSubProvider.swift; sourceTree = "<group>"; };
+		115B42F61CA3B22300F072B1 /* MSBDefaultSubroutine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBDefaultSubroutine.swift; sourceTree = "<group>"; };
+		115B42F81CA3B56E00F072B1 /* MSBDefaultReaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBDefaultReaction.swift; sourceTree = "<group>"; };
+		115B42FA1CA3B5DC00F072B1 /* MSBDefaultTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBDefaultTask.swift; sourceTree = "<group>"; };
+		115B42FC1CA3B6AD00F072B1 /* MSBDefaultTaskScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBDefaultTaskScheduler.swift; sourceTree = "<group>"; };
+		115B42FE1CA3B70D00F072B1 /* MSBDefaultSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBDefaultSchedule.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		115B42D51CA3728D00F072B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115B42CF1CA3728D00F072B1 = {
+			isa = PBXGroup;
+			children = (
+				115B42DA1CA3728D00F072B1 /* TaskScheduler */,
+				115B42D91CA3728D00F072B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		115B42D91CA3728D00F072B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				115B42D81CA3728D00F072B1 /* TaskScheduler */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		115B42DA1CA3728D00F072B1 /* TaskScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				115B42F31CA3AEF600F072B1 /* Providers */,
+				115B42E61CA3A4DC00F072B1 /* Protocols */,
+				115B42DB1CA3728D00F072B1 /* main.swift */,
+				115B42F11CA3AE7100F072B1 /* MSBDefaultInstruction.swift */,
+				115B42F61CA3B22300F072B1 /* MSBDefaultSubroutine.swift */,
+				115B42F81CA3B56E00F072B1 /* MSBDefaultReaction.swift */,
+				115B42FA1CA3B5DC00F072B1 /* MSBDefaultTask.swift */,
+				115B42FC1CA3B6AD00F072B1 /* MSBDefaultTaskScheduler.swift */,
+				115B42FE1CA3B70D00F072B1 /* MSBDefaultSchedule.swift */,
+			);
+			path = TaskScheduler;
+			sourceTree = "<group>";
+		};
+		115B42E61CA3A4DC00F072B1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				115B42E21CA3A3C100F072B1 /* MSBTask.swift */,
+				115B42E41CA3A45A00F072B1 /* MSBSubroutine.swift */,
+				115B42E71CA3A56C00F072B1 /* MSBInstruction.swift */,
+				115B42E91CA3A57F00F072B1 /* MSBReaction.swift */,
+				115B42EB1CA3A66F00F072B1 /* MSBPubSub.swift */,
+				115B42ED1CA3A94000F072B1 /* MSBTaskScheduler.swift */,
+				115B42EF1CA3AB4E00F072B1 /* MSBSchedule.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		115B42F31CA3AEF600F072B1 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				115B42F41CA3AF1F00F072B1 /* MSBPubSubProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		115B42D71CA3728D00F072B1 /* TaskScheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115B42DF1CA3728D00F072B1 /* Build configuration list for PBXNativeTarget "TaskScheduler" */;
+			buildPhases = (
+				115B42D41CA3728D00F072B1 /* Sources */,
+				115B42D51CA3728D00F072B1 /* Frameworks */,
+				115B42D61CA3728D00F072B1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskScheduler;
+			productName = TaskScheduler;
+			productReference = 115B42D81CA3728D00F072B1 /* TaskScheduler */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		115B42D01CA3728D00F072B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = scottbyrns;
+				TargetAttributes = {
+					115B42D71CA3728D00F072B1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 115B42D31CA3728D00F072B1 /* Build configuration list for PBXProject "TaskScheduler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 115B42CF1CA3728D00F072B1;
+			productRefGroup = 115B42D91CA3728D00F072B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				115B42D71CA3728D00F072B1 /* TaskScheduler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		115B42D41CA3728D00F072B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115B42E31CA3A3C100F072B1 /* MSBTask.swift in Sources */,
+				115B42E81CA3A56C00F072B1 /* MSBInstruction.swift in Sources */,
+				115B42FF1CA3B70D00F072B1 /* MSBDefaultSchedule.swift in Sources */,
+				115B42EE1CA3A94000F072B1 /* MSBTaskScheduler.swift in Sources */,
+				115B42F01CA3AB4E00F072B1 /* MSBSchedule.swift in Sources */,
+				115B42E51CA3A45A00F072B1 /* MSBSubroutine.swift in Sources */,
+				115B42EC1CA3A66F00F072B1 /* MSBPubSub.swift in Sources */,
+				115B42F51CA3AF1F00F072B1 /* MSBPubSubProvider.swift in Sources */,
+				115B42FB1CA3B5DC00F072B1 /* MSBDefaultTask.swift in Sources */,
+				115B42EA1CA3A57F00F072B1 /* MSBReaction.swift in Sources */,
+				115B42F71CA3B22300F072B1 /* MSBDefaultSubroutine.swift in Sources */,
+				115B42F21CA3AE7100F072B1 /* MSBDefaultInstruction.swift in Sources */,
+				115B42DC1CA3728D00F072B1 /* main.swift in Sources */,
+				115B42F91CA3B56E00F072B1 /* MSBDefaultReaction.swift in Sources */,
+				115B42FD1CA3B6AD00F072B1 /* MSBDefaultTaskScheduler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		115B42DD1CA3728D00F072B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		115B42DE1CA3728D00F072B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		115B42E01CA3728D00F072B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		115B42E11CA3728D00F072B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		115B42D31CA3728D00F072B1 /* Build configuration list for PBXProject "TaskScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115B42DD1CA3728D00F072B1 /* Debug */,
+				115B42DE1CA3728D00F072B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115B42DF1CA3728D00F072B1 /* Build configuration list for PBXNativeTarget "TaskScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115B42E01CA3728D00F072B1 /* Debug */,
+				115B42E11CA3728D00F072B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 115B42D01CA3728D00F072B1 /* Project object */;
+}
