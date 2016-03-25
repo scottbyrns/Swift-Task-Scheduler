@@ -21,7 +21,13 @@ class MSBDefaultSchedule : MSBSchedule {
     
     func start () {
         
-        timer = NSTimer.scheduledTimerWithTimeInterval(1, target:self, selector: Selector("checkInterval"), userInfo: nil, repeats: true)
+	timer = NSTimer.scheduledTimer(1.0, repeats: true) { timer in
+		self.checkInterval()
+	}
+
+        let runLoop = NSRunLoop.currentRunLoop()
+        runLoop.addTimer(timer!, forMode: NSDefaultRunLoopMode)
+        runLoop.runUntilDate(NSDate(timeIntervalSinceNow: NSDate().timeIntervalSince1970))
         
     }
     
@@ -32,7 +38,7 @@ class MSBDefaultSchedule : MSBSchedule {
         for (time, config) in temporalMap {
             if Int64(timestamp) - time < 0 {
                 
-                temporalMap.removeValueForKey(time)
+                temporalMap.removeValue(forKey: time)
                 
                 scheduleHandler(task: config.task)
                 

@@ -8,10 +8,21 @@
 
 import Foundation
 
-print("Hello, World!")
+var subroutines : Array<MSBSubroutine> = []
+var instructions : Array<MSBInstruction> = []
+var reactions : Array<MSBReaction> = []
+
+instructions.append(MSBDefaultInstruction(channel : "Test Instruction", message : "Test Instruction"))
+
+subroutines.append(MSBDefaultSubroutine(subroutineName : "Test Subroutine", subroutineDescription : "Test Subroutine", sequence : instructions, reactions : reactions))
+
+
+var testTask = MSBDefaultTask(taskName : "Test Task", taskDescription : "Test Task", subroutines : subroutines)
+var tasks : Dictionary<Int64, (task : MSBTask, nextInterval: Int64)> = [Int64(NSDate().timeIntervalSince1970): (task: testTask, nextInterval: 1)]
 
 
 let scheduler = MSBDefaultTaskScheduler(schedule: MSBDefaultSchedule(scheduleHandler: { (task) -> () in
-    
-}, temporalMap: Dictionary<Int64, (task : MSBTask, nextInterval: Int64)>()))
+    print(task.taskName)
+}, temporalMap: tasks))
+
 

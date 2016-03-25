@@ -23,8 +23,8 @@ class MSBDefaultTaskScheduler : MSBTaskScheduler {
     }
     
     func whenScheduledTaskShouldBePerformed(perform task : MSBTask) {
+	print("Performing task named \(task.taskName)")
         task.start()
     }
-
     
 }
